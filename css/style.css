@@ -57,6 +57,7 @@ header .container {
 
 main .container{
     min-height: 400px;
+    padding: 50px 0;
 }
 
 footer .container {
@@ -71,6 +72,7 @@ footer .container {
 footer .contact h4, footer .address h4 {
     border-bottom: 2px solid #D5D5D5;
 }
+
 footer .contact table tr th {
     text-align: left;
     padding: 5px 0;
@@ -90,11 +92,14 @@ footer .social a {
     background: #D5D5D5;
     margin: 0 10px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 25%;
+    display: flex;
+    
 }
 
 footer .social a img {
     height: 25px;
+    width: 25px;
 }
 
 footer .social a:hover {
